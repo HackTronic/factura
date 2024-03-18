@@ -1,3 +1,1 @@
-$(document).ready(function() {
-    $('select').material_select();
-  });
+document.getElementsByClassName("");

@@ -37,7 +37,7 @@
 
 
     <div class="paginacion">
-      <form class="form-text">
+      <form class="form-text" action="conexion.php" method="post">
 
         <div class="mb-3">
           <label for="inputNombre" class="form-label">Nombre</label>
@@ -45,12 +45,12 @@
         </div>
 
         <div class="mb-3">
-          <label for="inputCategoria" class="form-label">Descripción</label>
-          <input type="text" id="inputPassword1">
+          <label for="inputDescripcion" class="form-label">Descripción</label>
+          <input type="text" id="inputDescripcion">
         </div>
         <div class="mb-3">
-          <label for="inputCategoria" class="form-label">Precio</label>
-          <input type="number" id="inputPassword1" step="any">
+          <label for="inputPrecio" class="form-label">Precio</label>
+          <input type="number" id="inputPrecio" step="any">
         </div>
         <div class="mb-3">
           <label for="lugar">Lugar: </label>
@@ -63,12 +63,12 @@
           <button><ion-icon name="trash-outline"></ion-icon></button>
         </div>
         <div class="mb-3">
-          <label for="fecha" class="form-label">Fecha: </label>
-          <input type="date" name="fecha" id="inputPassword1">
+          <label for="inputFecha" class="form-label">Fecha: </label>
+          <input type="date" name="fecha" id="inputFecha">
         </div>
         <div class="mb-3">
           <label for="categoria">Categoria: </label>
-          <select name="categoria" id="lugar">
+          <select name="categoria" id="categoria">
             <option value="electricidad">Electricidad</option>
             <option value="gafiteria">Gafiteria</option>
             <option value="pintura">Pintura</option>
