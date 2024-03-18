@@ -38,7 +38,7 @@ $fecha = $_POST['inputFecha'];
 
 // Insert data into database
 
-$sql = "INSERT INTO factura (nombre, precio, descripcion, fk_id_establecimiento, lugar_establecimiento, fecha, fk_id_categoria, estado) VALUES ('$nombre', '$precio', '$descripcion', '1', '$lugar_establecimiento', '$fecha', '1', '1')";
+$sql = "INSERT INTO factura (nombre, precio, descripcion, fk_id_establecimiento, lugar_establecimiento, fecha, fk_id_categoria, estado) VALUES ('$nombre', '$precio', '$descripcion', 1, '$lugar_establecimiento', '$fecha', 1, 1)";
 
 
 if ($conn->query($sql) === TRUE) {
