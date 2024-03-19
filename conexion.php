@@ -4,7 +4,7 @@ $servername = "ns1.dns-parking.com";
 
 $username = "u670308002_alava_idrovo";
 
-$password = "";
+$password = "sergioA22689";
 
 $dbname = "u670308002_proyecto";
 
