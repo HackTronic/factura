@@ -1,6 +1,6 @@
 <?php
 
-$servername = "ns1.dns-parking.com";
+$servername = "127.0.0.1";
 
 $username = "u670308002_alava_idrovo";
 
