@@ -32,13 +32,13 @@ $descripcion = $_POST['inputDescripcion'];
 //$fk_id_establecimiento = $_POST['email'];
 $lugar_establecimiento = $_POST['lugar'];
 $fecha = $_POST['inputFecha'];
-$fk_id_categoria = $_POST['categoria'];
+//$fk_id_categoria = $_POST['categoria'];
 //$estado = $_POST['email'];
 
 
 // Insert data into database
 
-$sql = "INSERT INTO factura (nombre, precio, descripcion, fk_id_establecimiento, lugar_establecimiento, fecha, fk_id_categoria, estado) VALUES ('$nombre', '$precio', '$descripcion', 1, '$lugar_establecimiento', '$fecha', '$categoria', 1)";
+$sql = "INSERT INTO factura (nombre, precio, descripcion, fk_id_establecimiento, lugar_establecimiento, fecha, fk_id_categoria, estado) VALUES ('$nombre', '$precio', '$descripcion', 1, '$lugar_establecimiento', '$fecha', 1)";
 
 
 if ($conn->query($sql) === TRUE) {
